@@ -5,8 +5,9 @@ function App() {
 
   return (
     <div>
+      <h1>Hello DSmeta</h1>
 
-      <NotificationButton />
+      <NotificationButton/>
     </div>
 
   )
