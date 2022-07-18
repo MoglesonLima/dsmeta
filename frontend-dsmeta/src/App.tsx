@@ -1,18 +1,22 @@
 import Header from './components/Header'
-import NotificationButton from './components/NoticationButton'
+// import NotificationButton from './components/NoticationButton'
+
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import SalesCard from './components/SalesCard'
 
 function App() {
 
   return (
     <div>
-      <Header/>
+      <ToastContainer />
+      <Header />
       {/* <NotificationButton/> */}
 
       <main>
         <section id='sales'>
           <div className='dsmeta-container'>
-            <SalesCard/>
+            <SalesCard />
           </div>
 
         </section>
