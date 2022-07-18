@@ -1,3 +1,5 @@
+import React from 'react';
+
 import logo from "../../assets/img/logo-dsmeta.png"
 import "./styles.css"
 
