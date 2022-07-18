@@ -8,7 +8,7 @@ import SalesCard from './components/SalesCard'
 function App() {
 
   return (
-    <div>
+    <>
       <ToastContainer />
       <Header />
       {/* <NotificationButton/> */}
@@ -21,7 +21,7 @@ function App() {
 
         </section>
       </main>
-    </div>
+    </>
 
   )
 }
